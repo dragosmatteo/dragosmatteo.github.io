@@ -1,0 +1,137 @@
+/* styles.css */
+
+body {
+    background: #333 url('img/download.jpg') center center no-repeat;
+    background-size: cover;
+    color: #700201;
+}
+
+#container {
+    width: 450px;
+    margin: 40px auto 0;
+    padding: 50px;
+    box-sizing: border-box;
+    background: url('img/paper-pattern.jpg') top left repeat;
+    box-shadow: 0 10px 15px -8px #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: solid 1px #ddd;
+}
+
+#serviceQuality {
+    cursor: pointer;
+}
+
+form {
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+form input,
+form select {
+    padding: 8px;
+    margin: 10px 0;
+}
+
+form input[type="text"] {
+    width: 90px;
+}
+
+button {
+    background: #3f0706;
+    color: white;
+    border: none;
+    border-bottom: solid 4px #222;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px 30px;
+    width: 100%;
+    cursor:pointer;
+}
+
+button:hover {
+    background: #4c2827;
+    border-bottom-color: #111;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+#totalTip {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+#totalTip:before {
+    content: "Tip amount";
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
+#totalTip sup {
+    font-size: 24px;
+    top: -18px;
+}
+
+#totalTip small {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    text-shadow:  rgb(194, 153, 153) white  ;
+    text-emphasis: radius;
+    
+}
+
+#eu {
+    color :rgb(116, 87, 87);
+    text-size:13px;
+    text-decoration: mediumaquamarine;
+    text-transform: lowercase;
+    text-shadow: 3px rgb(168, 124, 124);
+    font-size: medium;
+    display: block;
+    text-align: center;
+    border:1px rgb(134, 134, 134);
+    padding:0,0,5px;
+}
+
+.ig {
+    cursor: pointer;
+    color: red;
+    text-shadow:1px black;
+    text-transform: capitalize;
+    font-style: oblique;
+}
+
+ /* text-align:right;
+    color: maroon;
+    text-shadow: 100 % black white  ;
+    text-emphasis: radius;
+    text-size:20px;
+
+}
+ */
+
+
+
+
+
+
+

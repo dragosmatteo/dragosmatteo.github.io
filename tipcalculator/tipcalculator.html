@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Tip Calculator</title>
+        
+        <!-- Normalize.css -->
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        
+        <!-- Custom Styles -->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    
+    <body>
+        
+        <div id="container">
+            <h1>Tip Calculator</h1>
+            
+            <div id="calculator">
+                
+                <form>
+                    <label>
+                        Cat a costat nota de plata?<br>
+                         <input type="text" id="billAmount"> lei
+                    </label>
+                    <label>
+                        Cum au fost serviciile tale?<br>
+                        <select id="serviceQuality">
+                            <option disabled selected value="0">-- Alege o optiune --</option>
+                            <option value="0.3">30% - Foarte bun</option>
+                            <option value="0.2">20% - Bun </option>
+                            <option value="0.15">15% - Ok </option>
+                            <option value="0.1">10% - Rau </option>
+                            <option value="0.05">5% - Teribil </option>
+                        </select>
+                    </label>
+                    <label>
+                        Cate persoane au platit nota de plata ?<br>
+                        <input type="text" id="totalPeople"> persoane
+                    </label>
+                    <button type="button" id="calculate">Calculeaza!</button>
+                </form>
+                
+            </div><!-- calculator -->
+            
+            <div id="totalTip">
+                <span id="tip">0.00</span><sup> lei </sup>
+                  <small id="each">fiecare</small> 
+            </div><!-- totalTip -->
+            <br><br>
+            <footer id="eu" >
+                &copy;  toate drepturile rezervate lui &rightarrow; <span class="ig"> <a href=" https://www.instagram.com/dragos_matteo/?hl=en"> ig:dragos_matteo </a> </span>
+           </footer>
+        </div><!-- container -->
+
+    
+        
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+    
+</html>
+
