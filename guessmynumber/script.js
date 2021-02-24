@@ -29,7 +29,7 @@ document.querySelector('.check').addEventListener('click',function(){
 
     // When there is no input
     if(!guess){
-        displayMessage('Introduce a valid number!');
+        displayMessage('Introduce a valid number!🔥');
     }
 
     // When is equal
@@ -56,7 +56,7 @@ document.querySelector('.check').addEventListener('click',function(){
          if(score > 1){
        // document.querySelector('.message').textContent =
       // guess > secretNumber ? '📈 Too high!' : '📉 Too low!';
-             displayMessage(guess > numarRandom ? 'Too high!' : 'Too smaller') ; // Scurta si decizie la atribuire daca este indeplinita conditia
+             displayMessage(guess > numarRandom ? 'Too high! 📈' : 'Too low 📉') ; // Scurta si decizie la atribuire daca este indeplinita conditia
              score--;
              document.querySelector('.score').textContent = score;}
          else { 
