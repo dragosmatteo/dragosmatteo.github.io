@@ -276,6 +276,7 @@ a:hover {
   top:1px;
   cursor: default;
   clear: both;
+  cursor: pointer;
 }
 
 /* selected link */
