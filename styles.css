@@ -266,13 +266,13 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: rgb(6, 57, 124);
+/*   color: rgb(6, 57, 124); */
   cursor: pointer;
 }
 
 /* mouse over link */
 a:hover {
-  color: #2e9ff0;
+/*   color: #2e9ff0; */
   top:1px;
   cursor: default;
   clear: both;
