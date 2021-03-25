@@ -1,3 +1,3 @@
-Aici a fost primul meu cod atasat pe GitHub.Este un mic CV si un mini proiect "Tip Calculator" si "Guess my Number" care este facut in JS aplicand notiuni de baza.Cam aici a fost inceputul propriu zis in programare.
+Here was my first code attached on GitHub. It is a small CV and a mini project "Type Calculator" and "Guess my Number" which is done in JS applying basic notions. This was the actual beginning in programming.
 
-Bine ai venit! :)
+Welcome! :) 
