@@ -272,7 +272,7 @@ a:visited {
 */
 
 a:hover {
- /* color: rgba(207, 19, 224, 0.678); */
+ /* color: rgba(207, 19, 224, 0.678); *
   top:1px;
   cursor: default;
   clear: both;
