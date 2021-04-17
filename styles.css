@@ -259,20 +259,16 @@ body {
   }
 
 a:link {
- /* color: red; */
   text-emphasis: shadow 3px;
   cursor: pointer;
 }
 
-/*  
+
 a:visited {
-  color: rgb(6, 57, 124);
   cursor: pointer;
 }
-*/
 
 a:hover {
- /* color: rgba(207, 19, 224, 0.678); *
   top:1px;
   cursor: default;
   clear: both;
