@@ -159,7 +159,7 @@ body {
 }
 
 .resume .resume_right .bold:active {
-  text-shadow: red;
+  /* text-shadow: red;*/
 }
 
 .resume .resume_right .resume_work ul,
