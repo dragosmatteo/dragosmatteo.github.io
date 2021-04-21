@@ -6,7 +6,7 @@ if(navigator.geolocation){
         const { longitude } = pozition.coords;
         console.log(`https://www.google.com/maps/@${latitude}.${longitude}`);
         
-        const coords = [latitude , longitude];
+        const coords = [latitude, longitude];
 
         const map = L.map('map').setView(coords, 15);
 
