@@ -1,4 +1,7 @@
-/* styles.css */
+* {
+    padding: 0;
+    margin: 0;
+}
 
 body {
     background: #333 url('img/download.jpg') center center no-repeat;
@@ -120,17 +123,9 @@ button:active {
     font-style: oblique;
 }
 
- /* text-align:right;
-    color: maroon;
-    text-shadow: 100 % black white  ;
-    text-emphasis: radius;
-    text-size:20px;
-
+input, option {
+    outline: none;
 }
- */
-
-
-
 
 
 
