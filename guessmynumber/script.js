@@ -23,8 +23,8 @@ document.querySelector('.check').addEventListener('click',function(){
          // Selectia de stiluri
          document.querySelector('body').style.backgroundColor = '#60b347';
          document.querySelector('.number').style.width = '300p ';
-         document.querySelector('.number').style.backgroundImage = 'linear-gradient(to top, red,orange,yellow,green,blue,indigo,violet)';
-         document.querySelector('.number').style.borderRadius = '10px';
+         document.querySelector('.number').style.backgroundImage = 'linear-gradient(to left, red,yellow)';
+         document.querySelector('.number').style.borderRadius = '5px';
 
          // Sa afiseze numarul random cand l a, ghicit
 
