@@ -4,13 +4,14 @@
 function calculateTip() {
     
     // Store the data of inputs
-    var billAmount = document.getElementById("billAmount").value;
-    var serviceQuality = document.getElementById("serviceQuality").value;
-    var numPeople = document.getElementById("totalPeople").value;
+    const billAmount = document.getElementById("billAmount").value;
+    const serviceQuality = document.getElementById("serviceQuality").value;
+    const numPeople = document.getElementById("totalPeople").value;
+    const calculate = document.getElementById("calculate");
     
     // Quick validation
     if(billAmount === "" || serviceQuality == 0) {
-        window.alert("Please enter some values =))))))))))))))))))))))))))))))))");
+        window.alert("Please enter some values =)))");
         return; // this will prevent the function from continuing
     }
     
@@ -43,9 +44,8 @@ document.getElementById("totalTip").style.display = "none";
 document.getElementById("each").style.display = "none";
 
 // Clicking the button calls our custom function
-document.getElementById("calculate").onclick = function() { calculateTip(); };
-
-//cam asta o fost tot
+calculate.onclick = function() {
+    calculateTip();};
 
 
 
