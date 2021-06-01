@@ -24,6 +24,7 @@ body {
 .semi-bold {
   font-weight: 500;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .resume {
@@ -182,6 +183,7 @@ body {
 
 .resume .resume_right ul li:last-child .info {
   margin-bottom: 0;
+  cursor: pointer;
 }
 
 .resume .resume_right .resume_work ul li:before,
